@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T06:02:38.179Z",
-  "count": 1689,
+  "generatedAt": "2026-09-17T07:23:45.374Z",
+  "count": 1690,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -12225,6 +12225,44 @@
       "path": "fixes/cncf-generated/coredns/coredns-4545-add-fallthrough-to-file-plugin-or-add-wildcards-to-hosts-plugin.json",
       "title": "coredns: Add fallthrough to file plugin, or add wildcards to hosts plugin",
       "description": "Add fallthrough to file plugin, or add wildcards to hosts plugin. Requested by 12+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "coredns",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "coredns"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "beginner",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/coredns/coredns-7734-add-first-class-structured-json-logging-support.json",
+      "title": "coredns: Add first-class structured / JSON logging support",
+      "description": "Add first-class structured / JSON logging support. Requested by 9+ users.",
       "category": "cncf-generated",
       "missionClass": "fixer",
       "author": "KubeStellar Bot",
