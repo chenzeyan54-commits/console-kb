@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T06:02:23.062Z",
-  "count": 1690,
+  "generatedAt": "2026-09-18T08:08:46.976Z",
+  "count": 1691,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -15209,6 +15209,44 @@
       ],
       "cncfProjects": [
         "dragonfly"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
+      "installMethods": [],
+      "maturity": "community",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/dragonflydb/dragonflydb-59-support-stream-data-structure.json",
+      "title": "dragonflydb: Support Stream data structure",
+      "description": "Support Stream data structure. Requested by 5+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "dragonflydb",
+        "community",
+        "cache",
+        "feature"
+      ],
+      "cncfProjects": [
+        "dragonflydb"
       ],
       "targetResourceKinds": [],
       "difficulty": "intermediate",
