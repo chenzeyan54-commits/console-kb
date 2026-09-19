@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T06:02:42.162Z",
-  "count": 1695,
+  "generatedAt": "2026-09-19T06:51:04.738Z",
+  "count": 1696,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -15580,6 +15580,44 @@
         "troubleshoot"
       ],
       "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "graduated",
+      "qualityScore": 100,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 100
+      },
+      "qualityIssues": [],
+      "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/envoy/envoy-4613-accessing-request-headers-in-envoy-on-response-lua-http-filter.json",
+      "title": "envoy: Accessing request headers in envoy_on_response (lua HTTP filter).",
+      "description": "Accessing request headers in envoy_on_response (lua HTTP filter).. Requested by 17+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "envoy",
+        "graduated",
+        "networking",
+        "feature"
+      ],
+      "cncfProjects": [
+        "envoy"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "feature"
+      ],
+      "type": "feature",
       "installMethods": [],
       "maturity": "graduated",
       "qualityScore": 100,
