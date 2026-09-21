@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T06:02:59.481Z",
-  "count": 1696,
+  "generatedAt": "2026-09-21T07:08:29.099Z",
+  "count": 1697,
   "missions": [
     {
       "path": "fixes/cncf-generated/akri/akri-85-extensibility-http-protocol.json",
@@ -40250,6 +40250,50 @@
       },
       "qualityIssues": [],
       "qualitySuggestions": []
+    },
+    {
+      "path": "fixes/cncf-generated/keycloak/keycloak-50362-cimd-claude-desktop-authentication-rejected-by-keycloak-jwt-beare.json",
+      "title": "keycloak: [CIMD] Claude Desktop authentication rejected by Keycloak: jwt-bearer grant type incompatible with public client",
+      "description": "[CIMD] Claude Desktop authentication rejected by Keycloak: jwt-bearer grant type incompatible with public client. This issue affects 23+ users.",
+      "category": "cncf-generated",
+      "missionClass": "fixer",
+      "author": "KubeStellar Bot",
+      "authorGithub": "kubestellar",
+      "authorAvatar": "https://github.com/kubestellar.png",
+      "tags": [
+        "keycloak",
+        "incubating",
+        "security",
+        "troubleshoot"
+      ],
+      "cncfProjects": [
+        "keycloak"
+      ],
+      "targetResourceKinds": [],
+      "difficulty": "intermediate",
+      "issueTypes": [
+        "troubleshoot"
+      ],
+      "type": "troubleshoot",
+      "installMethods": [],
+      "maturity": "incubating",
+      "qualityScore": 90,
+      "qualityPass": true,
+      "qualityBreakdown": {
+        "clarity": 100,
+        "completeness": 100,
+        "correctness": 100,
+        "structure": 100,
+        "observability": 30
+      },
+      "qualityIssues": [
+        "No verification step or command found",
+        "Missing expected output or log checks"
+      ],
+      "qualitySuggestions": [
+        "Add a final step to verify that the fix was successfully applied (e.g., checking pod status)",
+        "Include command outputs or log tailing instructions (e.g., kubectl get events/logs) to help users confirm success"
+      ]
     },
     {
       "path": "fixes/cncf-generated/keycloak/keycloak-17432-add-support-for-smtp-oauth-2-0-authentication-for-outgoing-email.json",
